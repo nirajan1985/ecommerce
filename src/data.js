@@ -38,3 +38,43 @@ export const categories = [
     title: "DESSERT",
   },
 ];
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: "./images/potatotaco.jpg",
+  },
+  {
+    id: 2,
+    img: "./images/butterchicken.jpg",
+  },
+  {
+    id: 3,
+    img: "./images/chickenbriyani.jpg",
+  },
+  {
+    id: 4,
+
+    img: "./images/momo.jpg",
+  },
+  {
+    id: 5,
+
+    img: "./images/crispyokra.jpg",
+  },
+  {
+    id: 6,
+
+    img: "./images/seafoodcracker.jpg",
+  },
+  {
+    id: 7,
+
+    img: "./images/kalamaripakora.jpg",
+  },
+  {
+    id: 8,
+
+    img: "./images/1947salad.jpg",
+  },
+];
