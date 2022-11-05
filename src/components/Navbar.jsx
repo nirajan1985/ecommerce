@@ -29,7 +29,7 @@ const Right = styled.div`
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  ${Mobile({ flex: 2, justifyContent: "center" })}
+  ${Mobile({ flex: 2, justifyContent: "flex-start" })}
 `;
 const Language = styled.div`
   font-size: 14px;

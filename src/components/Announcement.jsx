@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Mobile } from "../Responsive";
 
 const Container = styled.div`
   height: 30px;
