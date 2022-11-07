@@ -6,8 +6,10 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 import RoomIcon from "@mui/icons-material/Room";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import { Mobile } from "../Responsive";
 const Container = styled.div`
   display: flex;
+  ${Mobile({ flexDirection: "column" })}
 `;
 const Left = styled.div`
   flex: 1;
@@ -18,6 +20,7 @@ const Left = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${Mobile({ display: "none" })}
 `;
 const Title = styled.h3`
   margin-bottom: 30px;
@@ -37,6 +40,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${Mobile({ backgroundColor: "#eee" })}
 `;
 const Logo = styled.h1``;
 const Desc = styled.p`
